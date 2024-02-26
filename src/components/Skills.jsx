@@ -38,12 +38,8 @@ const Skill = () => {
             {data &&
               data?.map((e) => (
                 <>
-                  {console.log(e)}
                   {e.catagory === "Programming" ? (
-                    <div
-                      className="skills-card col-2 "
-                      key={e.id}
-                    >
+                    <div className="skills-card col-2 " key={e.id}>
                       <div
                         className="dot"
                         style={{
