@@ -20,7 +20,7 @@ const Hero = () => {
             های متعددی در ابعاد مختلف و در زمینه هایی چون پیام رسان و تجارت
             الکترونیک پیاده سازی کرده ام.
             <br />
-            <br /> آماده به همکاری در تهران.{" "}
+            <br /> آماده به همکاری در شهر تهران.{" "}
           </p>
           <a
             href="https://drive.google.com/file/d/1AzxCdSJR_WHub0o_BlUqngriusWWUQgY/view?usp=sharing"

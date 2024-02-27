@@ -11,6 +11,7 @@
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 75px;
+  overflow-x: hidden;
 }
 
 *,
@@ -86,8 +87,12 @@ select:focus {
     margin-top: 2rem;
     display: flex;
     flex-direction: column-reverse;
-
     justify-content: center;
+  }
+}
+@media (max-width: 576px) {
+  .Description-text {
+    font-size: 1.25rem !important;
   }
 }
 
@@ -209,7 +214,7 @@ select:focus {
 .social-icon {
   display: inline-block;
   margin-left: 14px;
-  padding: 1rem;
+  padding: 1rem 1.5rem 1rem 1.5rem;
 }
 .social-icon a {
   border-color: rgba(255, 255, 255, 0.5) !important;
@@ -498,9 +503,8 @@ circle:nth-child(1) {
   padding: 2rem 0 2rem 0;
   z-index: 1000 !important;
 }
-.testa {
-  width: 100%;
-  height: 100%;
+.img-size {
+  height: 17.2rem;
 }
 
 .card-title {
@@ -613,7 +617,7 @@ circle:nth-child(1) {
 .Footer-header-border {
   border: 0.15rem solid gray;
   width: 25%;
-  margin: auto;
+  margin: 2rem auto auto auto;
 }
 
 .footer-link {

@@ -20,7 +20,7 @@ const Projects = () => {
         <div className="skills-main d-flex flex-column justify-content-center text-center align-items-center ">
           <div className="row row-12 position-relative text-center justify-content-center align-items-center skills-container gap-3   ">
             <div className="row row-cols-1 row-cols-md-4 justify-content-center g-4">
-              <div className="col-6">
+              <div className="col-7 col-md-6 col-lg-4">
                 <div className="card h-100">
                   <a
                     href="https://github.com/SO-K-T/CharKhone-Messenger"
@@ -33,8 +33,8 @@ const Projects = () => {
                       border="0"
                     />
                   </a>
-                  <div className="card-body ">
-                    <div className="d-flex justify-content-between mx-4 align-content-center">
+                  <div className="card-body  ">
+                    <div className="d-flex justify-content-between mx-4 py-2 mb-1  align-content-center">
                       <h5 className="">پیشرفته</h5>
                       <h5 className="mt-1">Local Host</h5>
                       <h4 className="card-title">CharKhone</h4>
@@ -43,7 +43,7 @@ const Projects = () => {
                       {" "}
                       <p className="card-text " style={{ direction: "rtl" }}>
                         یک برنامه پیامرسان به همراه تماس تصوری و به اشتراک
-                        گزاشتن تصویر با WebRTC , React , Redux , SocketIO.
+                        گزاشتن تصویر با WebRTC , React , Redux
                       </p>
                       <a
                         href="https://github.com/SO-K-T/CharKhone-Messenger"
@@ -57,22 +57,22 @@ const Projects = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-6">
-                <div className="card h-100">
+              <div className="col-7 col-md-6 col-lg-4 mt-lg-4   ">
+                <div className="card h-100  ">
                   <a
                     href="https://github.com/SO-K-T/ShopKhone-Ecommerce"
                     rel="noreferrer"
                     target="_blank"
-                    className="testa"
                   >
                     <img
                       src="https://i.ibb.co/MnktV3M/Shop-Khone.png"
                       alt="image"
                       border="0"
+                      className="mt-md-4 mt-lg-4  "
                     />
                   </a>
                   <div className="card-body ">
-                    <div className="d-flex justify-content-between mx-4 align-content-center">
+                    <div className="d-flex justify-content-between mx-4 py-2 mb-3 mb-lg-4 align-content-center">
                       <h5 className="">متوسط</h5>
                       <h5 className="mt-1">Local Host</h5>
                       <h4 className="card-title">ShopKhone</h4>
@@ -81,13 +81,13 @@ const Projects = () => {
                       {" "}
                       <p className="card-text " style={{ direction: "rtl" }}>
                         یک وب سایت تجارت الکترونیک B2C که به همراه React و Redux
-                        پیاده سازی شده است.
+                        و Boostrap پیاده سازی شده است.
                       </p>
                       <a
                         href="https://github.com/SO-K-T/ShopKhone-Ecommerce"
                         target="_blank"
                         rel="noreferrer"
-                        className="Redirect-Btn text-white "
+                        className="Redirect-Btn text-white  "
                       >
                         Github صفحه
                       </a>
@@ -95,7 +95,7 @@ const Projects = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-6">
+              <div className="col-7 col-md-6 col-lg-4 ">
                 <div className="card h-100">
                   <a
                     href="https://github.com/SO-K-T/PersiaVPN"
@@ -109,7 +109,7 @@ const Projects = () => {
                     />
                   </a>
                   <div className="card-body ">
-                    <div className="d-flex justify-content-between mx-4 align-content-center">
+                    <div className="d-flex justify-content-between mx-4 py-2 mb-1  align-content-center">
                       <h5 className="">مبتدی</h5>
                       <h5 className="mt-1">Local Host</h5>
                       <h4 className="card-title">PersiaVpn</h4>
@@ -124,7 +124,7 @@ const Projects = () => {
                         href="https://github.com/SO-K-T/PersiaVPN"
                         target="_blank"
                         rel="noreferrer"
-                        className="Redirect-Btn text-white "
+                        className="Redirect-Btn text-white  "
                       >
                         Github صفحه
                       </a>
