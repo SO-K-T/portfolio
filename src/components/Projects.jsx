@@ -63,12 +63,13 @@ const Projects = () => {
                     href="https://github.com/SO-K-T/ShopKhone-Ecommerce"
                     rel="noreferrer"
                     target="_blank"
+                    className="bject-fit-cover"
                   >
                     <img
                       src="https://i.ibb.co/MnktV3M/Shop-Khone.png"
                       alt="image"
                       border="0"
-                      className="mt-md-4 mt-lg-4  "
+                      className="mt-md-4 mt-lg-4 object-fit-cover "
                     />
                   </a>
                   <div className="card-body ">

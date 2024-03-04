@@ -273,7 +273,7 @@ select:focus {
 
 .Hero-bg-Img {
   margin-top: 0;
-  padding: 17rem 0rem 12rem 0;
+  padding: 17rem 0rem 20rem 0;
   background-image: url("./assets/img/Hero-bg.png");
   background-position: bottom center;
   background-size: cover;
