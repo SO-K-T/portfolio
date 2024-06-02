@@ -35,6 +35,7 @@ const Skill = () => {
         <div className="skills-main d-flex flex-column justify-content-center text-center align-items-center ">
           <h2 className="mb-5 skills-header">Programming / برنامه نویسی </h2>
           <div className="row row-12 position-relative text-center justify-content-center align-items-center skills-container gap-4   ">
+            {console.log(data)}
             {data &&
               data?.map((e) => (
                 <>

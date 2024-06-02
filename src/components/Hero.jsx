@@ -23,12 +23,11 @@ const Hero = () => {
             <br /> آماده به همکاری در شهر تهران.{" "}
           </p>
           <a
-            href="https://drive.google.com/file/d/1AzxCdSJR_WHub0o_BlUqngriusWWUQgY/view?usp=sharing"
+            href="https://drive.google.com/file/d/1-42o_us_0gr17P7-g_yYjxvKsK_CmMkw/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
             className="Download-Btn text-white "
           >
-            {" "}
             دانلود رزومه
           </a>
         </div>
