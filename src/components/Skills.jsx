@@ -1,21 +1,6 @@
-import axios from "axios";
-import { useEffect, useState } from "react";
+import { data as skillsData } from "../assets/skillsData";
 
 const Skill = () => {
-  const [data, setData] = useState([]);
-
-  const getData = async (url) => {
-    const response = await axios(url);
-
-    setData(response?.data);
-  };
-
-  useEffect(() => {
-    getData(
-      "https://api.mockfly.dev/mocks/3d9d738f-51c5-48bc-925a-2824ab9f1c45/skills-data"
-    );
-  }, []);
-
   return (
     <section className="skills-bg" id="skills">
       <div className="container text-center  ">
@@ -35,12 +20,11 @@ const Skill = () => {
         <div className="skills-main d-flex flex-column justify-content-center text-center align-items-center ">
           <h2 className="mb-5 skills-header">Programming / برنامه نویسی </h2>
           <div className="row row-12 position-relative text-center justify-content-center align-items-center skills-container gap-4   ">
-            {console.log(data)}
-            {data &&
-              data?.map((e) => (
+            {skillsData &&
+              skillsData?.map((e, i) => (
                 <>
                   {e.catagory === "Programming" ? (
-                    <div className="skills-card col-2 " key={e.id}>
+                    <div className="skills-card col-2 " key={i}>
                       <div
                         className="dot"
                         style={{
@@ -75,8 +59,8 @@ const Skill = () => {
           </div>
           <h2 className="mt-5 skills-header">Language / زبان </h2>
           <div className="row row-12 position-relative text-center justify-content-center align-items-center skills-container gap-4 mt-5   ">
-            {data &&
-              data?.map((e) => (
+            {skillsData &&
+              skillsData?.map((e, i) => (
                 <>
                   {e.catagory === "Langauge" ? (
                     <div className="skills-card col-2 " key={e.id}>
