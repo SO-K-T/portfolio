@@ -20,7 +20,7 @@ const Hero = () => {
             <br /> آماده به همکاری در شهر تهران.
           </p>
           <a
-            href="https://drive.google.com/file/d/11fvB75wkrnMWWcw93iSR_F4jrIYd9bjC/view?usp=sharing"
+            href="https://drive.google.com/file/d/1XLryWIj2EcK9Qd3usEiGz81oldC-hKlL/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
             className="Download-Btn text-white "
