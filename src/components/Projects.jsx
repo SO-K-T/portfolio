@@ -1,4 +1,6 @@
 // import * from 'https://ibb.co/Dk5Qg0M'
+import img1 from "../assets/Img/4Khone.png";
+import img2 from "../assets/Img/vpn.png";
 const Projects = () => {
   return (
     <section className=" Projects-bg-Img" id="projects">
@@ -28,9 +30,10 @@ const Projects = () => {
                     target="_blank"
                   >
                     <img
-                      src="https://i.ibb.co/DVncwvL/image.png"
+                      src={img1}
                       alt="image"
                       border="0"
+                      className="img-size"
                     />
                   </a>
                   <div className="card-body  ">
@@ -39,7 +42,7 @@ const Projects = () => {
                       <h5 className="mt-1">Local Host</h5>
                       <h4 className="card-title">CharKhone</h4>
                     </div>
-                    <div className="position-relative">
+                    <div className="position-relative d-flex flex-column justify-content-between">
                       {" "}
                       <p className="card-text " style={{ direction: "rtl" }}>
                         یک برنامه پیامرسان به همراه تماس تصوری و به اشتراک
@@ -60,37 +63,40 @@ const Projects = () => {
               <div className="col-7 col-md-6 col-lg-4 mt-lg-4   ">
                 <div className="card h-100  ">
                   <a
-                    href="https://github.com/SO-K-T/ShopKhone-Ecommerce"
+                    href="https://www.e3ketab.ir"
                     rel="noreferrer"
                     target="_blank"
                     className="bject-fit-cover"
                   >
                     <img
-                      src="https://i.ibb.co/MnktV3M/Shop-Khone.png"
+                      src="https://s32.picofile.com/file/8478181292/E3Ketab_Img.png"
                       alt="image"
                       border="0"
-                      className="mt-md-4 mt-lg-4 object-fit-cover "
+                      className="  img-size"
                     />
                   </a>
-                  <div className="card-body ">
-                    <div className="d-flex justify-content-between mx-4 py-2 mb-3 mb-lg-4 align-content-center">
-                      <h5 className="">متوسط</h5>
-                      <h5 className="mt-1">Local Host</h5>
-                      <h4 className="card-title">ShopKhone</h4>
+                  <div className="card-body  ">
+                    <div className="d-flex justify-content-between mx-4 py-2 mb-1  align-content-center">
+                      <h5 className="">پیشرفته</h5>
+                      <h5 className="mt-1 ">Online</h5>
+                      <h4 className="card-title">E3Ketab</h4>
                     </div>
-                    <div className="position-relative">
+                    <div className="position-relative   d-flex flex-column justify-content-between">
                       {" "}
                       <p className="card-text " style={{ direction: "rtl" }}>
-                        یک وب سایت تجارت الکترونیک B2C که به همراه React و Redux
-                        و Boostrap پیاده سازی شده است.
+                        این پروژه با استفاده از RTK ,Toolkit-Redux ,Tailwind
+                        ,React و Formik به همراه YUP پیاده سازی شده است. از
+                        مهمترین قابلیت های این وب سایت می توان به سیستم جستجوی
+                        پیشرفته، لیست دانلود و عالقمندی های حساب کازبری اشاره
+                        کرد.
                       </p>
                       <a
-                        href="https://github.com/SO-K-T/ShopKhone-Ecommerce"
+                        href="https://www.e3ketab.ir"
                         target="_blank"
                         rel="noreferrer"
                         className="Redirect-Btn text-white  "
                       >
-                        Github صفحه
+                        صفحه وب سایت
                       </a>
                     </div>
                   </div>
@@ -104,9 +110,10 @@ const Projects = () => {
                     target="_blank"
                   >
                     <img
-                      src="https://i.ibb.co/9NpDrss/image.png"
+                      src={img2}
                       alt="image"
                       border="0"
+                      className="img-size"
                     />
                   </a>
                   <div className="card-body ">
@@ -115,7 +122,7 @@ const Projects = () => {
                       <h5 className="mt-1">Local Host</h5>
                       <h4 className="card-title">PersiaVpn</h4>
                     </div>
-                    <div className="position-relative">
+                    <div className="position-relative d-flex flex-column justify-content-between">
                       {" "}
                       <p className="card-text " style={{ direction: "rtl" }}>
                         قالب یک وب سایت با استفاده از Bootstrap به همراه Sass

@@ -54,8 +54,8 @@ const NavBar = () => {
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
+                    width="25"
+                    height="25"
                     fill="#6a00ff"
                     className="bi bi-github"
                     viewBox="0 0 16 16"
@@ -73,8 +73,8 @@ const NavBar = () => {
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
+                    width="25"
+                    height="25"
                     fill="green"
                     className="bi bi-whatsapp"
                     viewBox="0 0 16 16"
@@ -93,8 +93,8 @@ const NavBar = () => {
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
+                    width="25"
+                    height="25"
                     fill="#0069e1"
                     className="bi bi-telegram "
                     viewBox="0 0 16 16"
@@ -107,8 +107,8 @@ const NavBar = () => {
                 <a className="gmail" href="#connect">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
+                    width="25"
+                    height="25"
                     viewBox="0 0 24 24"
                     fill="currentColor"
                   >

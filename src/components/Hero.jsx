@@ -14,8 +14,9 @@ const Hero = () => {
           </p>
           <p className="h5 Description-text  lh-base ">
             توسعه دهنده وب با بیش از ۲ سال سابقه در زمینه برنامه نویسی تخصصی با
-            استفاده از تکنولوژي های React و Tailwind,Redux ,Next . آشنایی کامل
-            به فرایند های متعددی از جمله رسپانسیو سازی و عیب یابی پروژ
+            استفاده از تکنولوژي های React و Tailwind,Redux-Toolkit ,Next .
+            آشنایی کامل به فرایند های متعددی از جمله رسپانسیو سازی و عیب یابی
+            پروژ
             <br />
             <br /> آماده به همکاری در شهر تهران.
           </p>
@@ -23,7 +24,7 @@ const Hero = () => {
             href="https://drive.google.com/file/d/1XLryWIj2EcK9Qd3usEiGz81oldC-hKlL/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
-            className="Download-Btn text-white "
+            className="Download-Btn text-white px-5 "
           >
             دانلود رزومه
           </a>

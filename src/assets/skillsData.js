@@ -4,7 +4,7 @@ export const data = [
     catagory: "Programming",
     name: "Html",
     color: "#fcba03",
-    percent: "100",
+    percent: "90",
   },
   {
     id: 2,
@@ -49,13 +49,7 @@ export const data = [
     percent: "70",
   },
   {
-    id: 8,
-    catagory: "Programming",
-    name: "Ant Design",
-    color: "#c23202",
-    percent: "40",
-  },
-  {
+
     id: 9,
     catagory: "Programming",
     name: "JavaScript",
@@ -114,7 +108,7 @@ export const data = [
   {
     id: 17,
     catagory: "Programming",
-    name: "Redux",
+    name: "Redux-Toolkit",
     color: "#ac02f0",
     percent: "80",
   },
@@ -130,6 +124,6 @@ export const data = [
     catagory: "Langauge",
     name: "English",
     color: "#4584f7",
-    percent: "100",
+    percent: "90  ",
   },
 ];

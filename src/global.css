@@ -220,7 +220,7 @@ select:focus {
   border-color: rgba(255, 255, 255, 0.5) !important;
   width: 4rem;
   height: 4rem;
-  background: rgba(217, 217, 217, 0.1);
+  background: rgb(214, 87, 214);
   display: inline-flex;
   border-radius: 50%;
   margin-right: 6px;
@@ -328,15 +328,17 @@ select:focus {
   border: 1.7px solid rgba(255, 255, 255, 0.5);
   font-size: 1.5rem;
   left: 5%;
-  transition: 1s ease-in-out;
-}
-
-.Download-Btn:hover {
+  border-radius: 20%;
   background: linear-gradient(
     90.21deg,
     rgba(170, 54, 124, 0.5) -5.91%,
     rgba(74, 47, 189, 0.5) 111.58%
   );
+  transition: 1s ease-in-out;
+}
+
+.Download-Btn:hover {
+  background: black;
   transition: 1s ease-in-out;
 }
 
@@ -502,9 +504,10 @@ circle:nth-child(1) {
   border-top: 0.2rem solid rgba(74, 47, 189, 0.5);
   padding: 2rem 0 2rem 0;
   z-index: 1000 !important;
+  height: 15rem;
 }
 .img-size {
-  height: 17.2rem;
+  height: 25rem;
 }
 
 .card-title {
@@ -513,6 +516,7 @@ circle:nth-child(1) {
 .card-body {
   border-top: 0.2rem solid rgba(74, 47, 189, 0.5);
   align-items: center;
+  height: 25rem;
 }
 
 .Redirect-Btn {
